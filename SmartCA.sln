@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartCA.Application", "Smar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartCA.Presentation", "SmartCA.Presentation\SmartCA.Presentation.csproj", "{6D51EDDA-0DE1-4766-B22B-CE157045E9E6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartCA.Infrastructure.Repositories", "SmartCA.Infrastructure.Repositories\SmartCA.Infrastructure.Repositories.csproj", "{27687565-02AA-4D95-8ED8-DAF29EF3AC21}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{6D51EDDA-0DE1-4766-B22B-CE157045E9E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D51EDDA-0DE1-4766-B22B-CE157045E9E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D51EDDA-0DE1-4766-B22B-CE157045E9E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27687565-02AA-4D95-8ED8-DAF29EF3AC21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27687565-02AA-4D95-8ED8-DAF29EF3AC21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27687565-02AA-4D95-8ED8-DAF29EF3AC21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27687565-02AA-4D95-8ED8-DAF29EF3AC21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
