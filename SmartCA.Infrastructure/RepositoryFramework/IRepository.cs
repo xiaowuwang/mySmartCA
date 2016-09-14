@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using SmartCA.Infrastructure.DomainBase;
+using mySmartCA.Infrastructure.DomainBase;
 
-namespace SmartCA.Infrastructure.RepositoryFramework
+namespace mySmartCA.Infrastructure.RepositoryFramework
 {
     public interface IRepository<T> where T : EntityBase 
     {
