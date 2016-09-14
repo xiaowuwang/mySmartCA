@@ -43,6 +43,16 @@
     <Compile Include="DomainBase\EntityBase.cs" />
     <Compile Include="DomainBase\IAggregateRoot.cs" />
     <Compile Include="DomainBase\IEntity.cs" />
+    <Compile Include="EntityFactoryFramework\Configuration\EntityMappingCollection.cs" />
+    <Compile Include="EntityFactoryFramework\Configuration\EntityMappingConstants.cs" />
+    <Compile Include="EntityFactoryFramework\Configuration\EntityMappingElement.cs" />
+    <Compile Include="EntityFactoryFramework\Configuration\EntitySettings.cs" />
+    <Compile Include="EntityFactoryFramework\EntityFactoryBuilder.cs" />
+    <Compile Include="EntityFactoryFramework\EntityMappingCollection.cs" />
+    <Compile Include="EntityFactoryFramework\EntityMappingConstants.cs" />
+    <Compile Include="EntityFactoryFramework\EntityMappingElement.cs" />
+    <Compile Include="EntityFactoryFramework\EntitySettings.cs" />
+    <Compile Include="EntityFactoryFramework\IEntityFactory.cs" />
     <Compile Include="IUnitOfWork.cs" />
     <Compile Include="IUnitOfWorkRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
