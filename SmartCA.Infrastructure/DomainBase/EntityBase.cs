@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace mySmartCA.Infrastructure.DomainBase
+namespace SmartCA.Infrastructure.DomainBase
 {
     public abstract class EntityBase
     {

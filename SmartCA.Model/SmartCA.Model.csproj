@@ -40,7 +40,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Addresses\Address.cs" />
+    <Compile Include="Addresses\IHasAddresses.cs" />
+    <Compile Include="Companies\Company.cs" />
+    <Compile Include="Companies\CompanyRuleMessages.cs" />
+    <Compile Include="Companies\CompanyService.cs" />
+    <Compile Include="Companies\ICompanyRepository.cs" />
+    <Compile Include="Employees\Employee.cs" />
+    <Compile Include="Employees\EmployeeRuleMessages.cs" />
+    <Compile Include="Employees\EmployeeService.cs" />
+    <Compile Include="Employees\IEmployeeRepository.cs" />
+    <Compile Include="Projects\IProjectRepository.cs" />
+    <Compile Include="Projects\Project.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SmartCA.Infrastructure\SmartCA.Infrastructure.csproj">
+      <Project>{44483D0A-6016-43AE-A90E-49D2E36C36D8}</Project>
+      <Name>SmartCA.Infrastructure</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
